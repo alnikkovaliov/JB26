@@ -14,7 +14,7 @@ public class HypoAndSquare {
 		int b = sc.nextInt();
 		
 		sc.close();
-		System.out.printf("Hypotenuse is: %s", (a*a + b*b));
+		System.out.printf("Hypotenuse is: %s", Math.sqrt((a*a + b*b)));
 		System.out.printf("\nSquare is: %s", ((double)a*b/2));
 	}
 
